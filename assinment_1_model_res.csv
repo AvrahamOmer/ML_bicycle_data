@@ -1,0 +1,4 @@
+,model,Score (RMSE),Hyperparams used,Features dropped,New features created,Runtime trainining + inference (seconds),Hardware used (GPU/CPU/TPU),Explainability (top 3 features)
+0,Linear regression,109.3622250072792,['None'],"['datetime', 'temp', 'atemp', 'sunlight', 'traffic']","['hour_sin', 'hour_cos', 'day_sin', 'day_cos', 'day', 'month', 'year', 'ef']",47,GPU,"['hour_sin', 'hour_cos', 'pollution']"
+1,Random forest,50.78858711967468,['max_features: auto'],"['datetime', 'temp', 'atemp', 'sunlight', 'traffic']","['hour_sin', 'hour_cos', 'day_sin', 'day_cos', 'day', 'month', 'year', 'ef']",47,GPU,"['hour_sin', 'hour_cos', 'pollution']"
+2,ADA Boost,95.60797591435187,['loss : square'],"['datetime', 'temp', 'atemp', 'sunlight', 'traffic']","['hour_sin', 'hour_cos', 'day_sin', 'day_cos', 'day', 'month', 'year', 'ef']",47,GPU,"['hour_sin', 'hour_cos', 'pollution']"
